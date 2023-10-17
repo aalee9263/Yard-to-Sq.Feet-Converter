@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Marla to Sq.Feet Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      <div class="converter">
+        <h2 style="color: rgb(173, 167, 167); text-align: center; letter-spacing: 6px; font-size: 25px;">
+          AREA CONVERTER
+        </h2>
+        <section class="container">
+          <input type="number" id="yard" oninput="yardToFt()" />
+          <label for="yard">Yard</label>
+        </section>
+        <section class="container">
+          <input type="number" id="feet" oninput="ftToYard()" />
+          <label for="feet">Feet</label>
+        </section>
+      </div>
+    <script src="./converter.js"></script>
+  </body>
+</html>
